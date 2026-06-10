@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header{
+    background: #006847;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+.banner{
+    text-align: center;
+    margin: 20px;
+}
+
+.banner img{
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.sobre,
+.informacoes{
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+.sobre h2,
+.informacoes h2{
+    color: #006847;
+    margin-bottom: 15px;
+}
+
+.informacoes ul{
+    margin-left: 20px;
+}
+
+.informacoes li{
+    margin-bottom: 10px;
+}
+
+footer{
+    background: #006847;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
